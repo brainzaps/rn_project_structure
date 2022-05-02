@@ -1,25 +1,19 @@
-# Welcome to your new ignited app!
-
-[![CircleCI](https://circleci.com/gh/infinitered/ignite.svg?style=svg)](https://circleci.com/gh/infinitered/ignite)
-
-## The latest and greatest boilerplate for Infinite Red opinions
-
-This is the boilerplate that [Infinite Red](https://infinite.red) uses as a way to test bleeding-edge changes to our React Native stack.
+## The latest and greatest boilerplate fr Infinite Red opinions
 
 Currently includes:
 
 - React Native
 - React Navigation
-- MobX State Tree
+- Recoil
 - TypeScript
 - And more!
 
 ## Quick Start
 
-The Ignite boilerplate project's structure will look similar to this:
+The boilerplate project's structure will look similar to this:
 
 ```
-ignite-project
+project
 ├── app
 │   ├── components
 │   ├── i18n
@@ -53,16 +47,12 @@ ignite-project
 │   ├── gradlew.bat
 │   ├── keystores
 │   └── settings.gradle
-├── ignite
-│   ├── ignite.json
-│   └── plugins
-├── index.js
 ├── ios
-│   ├── IgniteProject
-│   ├── IgniteProject-tvOS
-│   ├── IgniteProject-tvOSTests
-│   ├── IgniteProject.xcodeproj
-│   └── IgniteProjectTests
+│   ├── Project
+│   ├── Project-tvOS
+│   ├── Project-tvOSTests
+│   ├── Project.xcodeproj
+│   └── ProjectTests
 ├── .env
 └── package.json
 
@@ -70,7 +60,7 @@ ignite-project
 
 ### ./app directory
 
-Included in an Ignite boilerplate project is the `app` directory. This is a directory you would normally have to create when using vanilla React Native.
+It is the `app` directory. This is a directory you would normally have to create when using vanilla React Native.
 
 The inside of the src directory looks similar to the following:
 
@@ -94,7 +84,7 @@ This is where your React components will live. Each component will have a direct
 This is where your translations will live if you are using `react-native-i18n`.
 
 **models**
-This is where your app's models will live. Each model has a directory which will contain the `mobx-state-tree` model file, test file, and any other supporting files like actions, types, etc.
+This is where your app's models will live. Each model has a directory which will contain model file, test file, and any other supporting files like types, etc.
 
 **navigators**
 This is where your `react-navigation` navigators will live.
@@ -113,10 +103,6 @@ This is a great place to put miscellaneous helpers and utilities. Things like da
 
 **app.tsx** This is the entry point to your app. This is where you will find the main App component which renders the rest of the application.
 
-### ./ignite directory
-
-The `ignite` directory stores all things Ignite, including CLI and boilerplate items. Here you will find generators, plugins and examples to help you get started with React Native.
-
 ### ./storybook directory
 
 This is where your stories will be registered and where the Storybook configs will live.
@@ -131,15 +117,3 @@ From the command line in your generated app's root directory, enter `yarn run st
 This starts up the storybook server and opens a story navigator in your browser. With your app
 running, choose Toggle Storybook from the developer menu to switch to Storybook; you can then
 use the story navigator in your browser to change stories.
-
-For Visual Studio Code users, there is a handy extension that makes it easy to load Storybook use cases into a running emulator via tapping on items in the editor sidebar. Install the `React Native Storybook` extension by `Orta`, hit `cmd + shift + P` and select "Reconnect Storybook to VSCode". Expand the STORYBOOK section in the sidebar to see all use cases for components that have `.story.tsx` files in their directories.
-
-## Running e2e tests
-
-Read [e2e setup instructions](./e2e/README.md).
-
-## Previous Boilerplates
-
-- [2018 aka Bowser](https://github.com/infinitered/ignite-bowser)
-- [2017 aka Andross](https://github.com/infinitered/ignite-andross)
-- [2016 aka Ignite 1.0](https://github.com/infinitered/ignite-ir-boilerplate-2016)
