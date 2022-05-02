@@ -54,6 +54,7 @@ project
 │   ├── Project.xcodeproj
 │   └── ProjectTests
 ├── .env
+├── ReactotronConfig.js
 └── package.json
 
 ```
