@@ -1,4 +1,4 @@
-## The latest and greatest boilerplate fr Infinite Red opinions
+## Structure for React Native project
 
 Currently includes:
 
