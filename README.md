@@ -117,3 +117,10 @@ From the command line in your generated app's root directory, enter `yarn run st
 This starts up the storybook server and opens a story navigator in your browser. With your app
 running, choose Toggle Storybook from the developer menu to switch to Storybook; you can then
 use the story navigator in your browser to change stories.
+
+## Additional links
+
+- [Recoil.js](https://recoiljs.org/)
+- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
+- [DTO Pattern](https://www.baeldung.com/java-dto-pattern)
+- [Model](https://www.tomdalling.com/blog/software-design/model-view-controller-explained/)
