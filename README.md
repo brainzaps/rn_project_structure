@@ -81,6 +81,12 @@ app
 **components**
 This is where your React components will live. Each component will have a directory containing the `.tsx` file, along with a story file, and optionally `.presets`, `.atom`, and `.props` files for larger components. The app will come with some commonly used components like Button.
 
+components:
+    button:
+      button.tsx
+      button.styles.ts
+      button.props.ts
+
 **i18n**
 This is where your translations will live if you are using `react-native-i18n`.
 
@@ -92,6 +98,12 @@ This is where your `react-navigation` navigators will live.
 
 **screens**
 This is where your screen components will live. A screen is a React component which will take up the entire screen and be part of the navigation hierarchy. Each screen will have a directory containing the `.tsx` file, along with any assets or other helper files.
+
+screens:
+    screen_name:
+      screen_name.tsx
+      screen_name.styles.ts
+      screen_name.props.ts
 
 **services**
 Any services that interface with the outside world will live here (think REST APIs, Push Notifications, etc.).
